@@ -1,0 +1,30 @@
+%YAML:1.0
+
+Downsampling.Step.Train.Model: 4.0
+Downsampling.Step.Set.Scene: 4.0
+
+
+Model.Scale.x: 15
+Model.Scale.y: 15
+Model.Scale.z: 20
+
+
+Remove.Background.Position.Threshold: 5.0
+Remove.Background.Color.Threshold: 125 #if the color of the object is similar with background, this value should be very small
+
+
+Whether.Remove.Plane: 1
+
+
+Cluster.Position.Threshold: 2.5
+Cluster.Rotation.Threshold: 0.1
+
+Scene.Skip.Length: 5
+Sampling.Step.Relative: 0.01
+Angle.Step.Relative: 30
+
+Match.Minimum.Supports: 5.0
+
+Rescore.Threshold: 10.0
+Rescore.ICP.Threshold: 5.0
+ICP.Threshold: 7.5
